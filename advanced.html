@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/static/styles.css" rel="stylesheet" />
+	<title>Google Advanced Search</title>
+</head>
+
+<body>
+	<nav class="navbar">
+		<!-- Logo -->
+		<div>
+			<a href="/index.html"><img src="/static/logo.png" alt="Go to Google Home" style="width: 7rem" /></a>
+		</div>
+		<ul class="navlist">
+			<!-- Search -->
+			<li class="navlist__item"><a href="/index.html">Google Search</a></li>
+			<!-- Products  -->
+			<li class="navlist__item"><a href="https://www.google.com/intl/en/about/products"><img src="/static/products.png"
+						alt="Google apps" class="img-product" /></a></li>
+			<!-- Accounts -->
+			<li class="navlist__item"><a href="https://accounts.google.com/">
+					<img src="/static/avatar.png" alt="Google apps" class="img-account" />
+				</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<h4 class="heading">Advanced Search</h4>
+		<div class="advanced">
+			<div class="instructions">
+				<span class="heading__secondary">Find pages with...</span>
+				<label>all of these words: </label>
+				<label>this exact word or phrase: </label>
+				<label>any of these words: </label>
+				<label>none of these words: </label>
+			</div>
+			<form action="https://www.google.com/search" class="rel">
+				<div class="inputs">
+					<input class="input_field-1 type=" text" name="as_q" autocomplete="off">
+					<input class="input_field-2" type="text" name="as_q" autocomplete="off">
+					<input class="input_field-3 type=" text" name="as_q" autocomplete="off">
+					<input class="input_field-4 type=" text" name="as_q" autocomplete="off">
+				</div>
+				<button value="Advanced Search" type="submit" class="ad_bth">Advanced Search</button>
+			</form>
+			<div class="todo">
+				<span class="heading__secondary">To do this in the search box</span>
+				<div>Type the important words:<span> tricolor rat terrier</span></div>
+				<div>Put exact words in quotes: <span>"rat terrier"</span></div>
+				<div>Type OR between all the words you want: <span>miniature OR standard</span></div>
+				<div>Type OR between all the words you want: <span>-rodent, -"Jack Russell"</span></div>
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/static/styles.css" rel="stylesheet" />
+	<script src="https://kit.fontawesome.com/a773f7d6d6.js" crossorigin="anonymous"></script>
+	<title>Google Image Search</title>
+</head>
+
+<body>
+	<nav class="navbar">
+		<ul class="navlist">
+			<li class="navlist__item"><a href="https://about.google/">About</a></li>
+			<li class="navlist__item"><a href="https://store.google.com/">Store</a></li>
+		</ul>
+		<ul class="navlist">
+			<!-- Search -->
+			<li class="navlist__item"><a href="/index.html">Google Search</a></li>
+			<!-- Products -->
+			<li class="navlist__item"><a href="https://www.google.com/intl/en/about/products"><img src="/static/products.png"
+						alt="Google apps" class="img-product" /></a></li>
+			<!-- Accounts -->
+			<li class="navlist__item"><a href="https://accounts.google.com/">
+					<img src="/static/avatar.png" alt="Google apps" class="img-account" />
+				</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<div class="google">
+			<div class="google__logo"><img src="/static/logo.png" alt="Google Logo" class="logo" />
+				<span class="google__images">Images</span>
+			</div>
+			<form action="https://www.google.com/images" class="search__form">
+				<div class="input">
+					<input type="text" name="q" autofocus class="search" autocomplete="off">
+					<i class="fa-solid fa-magnifying-glass"></i>
+				</div>
+				<button type="submit" value="Image Search">Image Search</button>
+			</form>
+		</div>
+	</main>
+</body>
+
+</html>

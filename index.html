@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="/static/styles.css" rel="stylesheet" />
+	<script src="https://kit.fontawesome.com/a773f7d6d6.js" crossorigin="anonymous"></script>
+	<title>Google</title>
+</head>
+
+<body>
+	<nav class="navbar">
+		<ul class="navlist">
+			<li class="navlist__item"><a href="https://about.google/">About</a></li>
+			<li class="navlist__item"><a href="https://store.google.com/">Store</a></li>
+		</ul>
+		<ul class="navlist">
+			<!-- Image Search -->
+			<li class=" navlist__item"><a href="/image.html">Image Search</a></li>
+			<!-- Advanced Search  -->
+			<li class="navlist__item"><a href="/advanced.html">Advanced Search</a></li>
+			<!-- Products -->
+			<li class="navlist__item"><a href="https://www.google.com/intl/en/about/products"><img src="/static/products.png"
+						alt="Google apps" class="img-product" /></a></li>
+			<!-- Accounts -->
+			<li class="navlist__item"><a href="https://accounts.google.com/">
+					<img src="/static/avatar.png" alt="Google apps" class="img-account" />
+				</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<div class="google">
+			<!-- Logo -->
+			<img src="/static/logo.png" alt="Google Logo" / class="logo">
+			<form action="https://www.google.com/search" class="search__form">
+				<div class="input">
+					<input type="text" name="q" autofocus class="search" autocomplete="off">
+					<i class="fa-solid fa-magnifying-glass"></i>
+				</div>
+				<div class="button-container"><button type="submit" value="Google Search">Google Search</button>
+					<button name="btnI" value="I'm Feeling Lucky">I'm Feeling Lucky</button>
+				</div>
+			</form>
+		</div>
+	</main>
+</body>
+
+</html>
